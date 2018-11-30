@@ -1,0 +1,16 @@
+.title > h2 {
+    color: rgba(20, 20, 20, 0.801);
+    font-weight: bold;
+}
+.report {
+    width: 10%;
+}
+
+hr {
+    width: 85%;
+}
+
+.rssArea {
+    overflow: auto;
+    max-height: 300px;
+}
