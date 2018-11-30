@@ -3,8 +3,8 @@ block head
     title Reportagem de casos
     link(rel="stylesheet" href="../css/report.css")
 block content
-    div.container-fluid.d-flex
-        div.d-flex.w-100.align-items-center.mb-5.flex-column
+    div.container-fluid.d-flex.flex-column
+        div.d-flex.w-100.align-items-center.mb-3.flex-column
             div.mapa.d-flex.flex-column.align-items-center
                 h2.align-self-start.ml-5.mb-5.mt-5 Selecione o local:
                 img(src="https://rocketz.com.br/assets/store/img-store-cu-map-100123ec35cb58f100158e68b53bcd0c77a7f5120769df584d4aa67bb56e1c8c.jpg").w-75
@@ -277,9 +277,9 @@ block content
                             input#classe_social_outro(type="radio", name="classe_social",
                                 value="classe_social_outro")
                             label(for="classe_social_outro") Outro
-        div.btn-group.envia
-            button#voltarFormulario.d-flex.align-self-end.btn.btn-primary.mt-5 Voltar
-            button#enviarFormulario.d-flex.align-self-end.btn.btn-secondary.mt-5 Enviar
+        div.btn-group.envia.d-flex.align-self-end
+            button#voltarFormulario.btn.btn-primary Voltar
+            button#enviarFormulario.btn.btn-secondary Enviar
 block foot.sugestion
 block script
     script(src="../js/report.js")
