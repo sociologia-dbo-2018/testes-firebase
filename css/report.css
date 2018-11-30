@@ -1,13 +1,15 @@
-.opcoes {
+/*.opcoes {
     display: none;
 }
-
+*/
 .opcional {
     display: none;
 }
 
-.selecao {
+div.selecao, .opcoes {
     display: none;
+    flex-direction: column;
+    color: rgb(65, 65, 65);
 }
 
 .questoes_opcionais  {
